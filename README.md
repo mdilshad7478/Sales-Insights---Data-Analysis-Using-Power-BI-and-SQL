@@ -129,25 +129,15 @@ The import of data is done from an already existing MySQL file. This file has to
 
 Similarly, if we want different of any other particular city the market code of that city is used on the mysql workbench.
 
-*PART IV — Data Cleaning and ETL (extract transform load)*
+***PART IV — Data Cleaning and ETL (extract transform load)***
 - Step 1: We are going to connect MySQL with the PowerBI dektop
 - Step 2: Loading the data into the PowerBI desktop
+  
     Here, we are going to load all the tables we have created in the data base. This load option will connect with the SQL and pull all the records into power BI environment.
 
 [Looking up for model which forms the star schema]![Screenshot 2024-05-28 204304](https://github.com/rppradhan08/sales-insight/assets/157358118/c4a77b41-a6d7-4aa0-b18f-272787b6227e)
-## Data Cleaning and ETL (Extract, Transform, Load):
-In this process, we are work on data cleaning and ETL.
 
- Step 1: Connect the MySQL database with the PowerBI desktop.
- 
- Step 2: Loading data into the Power BI deskstop.
- This step load all the tables and created in the data base. This load option will connect with the SQL and pull all the records into power BI environment.
-         
- In that model view looking up for model which form the star schema.
-         
- ![Screenshot (4)](https://user-images.githubusercontent.com/118357991/233265427-94285bbf-79e6-446f-bd72-dc7c220e0680.png)
-
- Setp 3: Transform data with the help of Power Query
+- Setp 3: Transform data with the help of Power Query
  
  Perform filtration in market’s table: In the tables perform when we click on the transform data option, we are directed to Power query editor. Power query editor is where we perform out ETL.and then we can perform data transformation i.e. Data Cleaning, Data Wrangling, Data Munging. we need to filter the rows where the values are null and 
  filtering the data and deselecting the blank option. 
@@ -180,6 +170,9 @@ we can see that it is duplicate and for analysis its better to delete anyone of 
 Hence, by using such tools and technology one can make data driven decisions which helps to increase the sales of the company.
 
 So, in this project we will help a company make its own sales related dashboard using PowerBI.
+
+***PART V — Building a Dashboard or a Report***
+[sales_insights (1).pdf](https://github.com/rppradhan08/sales-insight/files/15473233/sales_insights.1.pdf)
 
  
 
