@@ -1,10 +1,10 @@
 # Sales Insights-Data Analysis Using Power BI and SQL
 
-### PART I — Problem Statement
+*PART I — Problem Statement*
 
 AtliQ hardware is a company in India which supplies computer hardware and peripheral devices across India only. They have many stores across India such as surge stores, Nomad stores etc. The head office of the company is situated in Delhi.
 
-#### Scenario —
+## Scenario —
 
 The sales manager of the company is facing many challenges. He is facing issues in tracking sales in dynamically growing market. He is having issues with the insights of his business.
 
@@ -17,4 +17,21 @@ All what the manager wants is a view of the weakest area the company need to foc
 Hence, by using such tools and technology one can make data driven decisions which helps to increase the sales of the company.
 
 So, in this project we will help a company make its own sales related dashboard using PowerBI.
+
+*PART II — Data Discovery*
+
+## Project planning using AIMS grid –
+
+AIMS grid: It is a project management tool which consists of four components to it.
+
+1) Purpose (what to do exactly)
+
+2) Stack holders (who will be involved)
+
+3) End result (what do you want to achieve)
+
+4) Success criteria (cost optimization and time save)
+
+In our case the end result will be the dashboard created and success criteria will be bumping up the sales using cost optimization and save the time of the manager of the company.
+![Screenshot 2024-05-28 183442](https://github.com/mdilshad7478/Sales-Insights---Data-Analysis-Using-Power-BI-and-SQL/assets/157358118/b892c544-8e04-4799-9b8c-ba1a12c25851)
 
