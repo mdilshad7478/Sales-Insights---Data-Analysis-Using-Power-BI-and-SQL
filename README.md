@@ -1,6 +1,6 @@
 # Sales Insights-Data Analysis Using Power BI and SQL
 
-***PART I — Problem Statement***
+<u><b><i>PART I — Problem Statement</i></b></u>
 
 AtliQ hardware is a company in India which supplies computer hardware and peripheral devices across India only. They have many stores across India such as surge stores, Nomad stores etc. The head office of the company is situated in Delhi.
 
