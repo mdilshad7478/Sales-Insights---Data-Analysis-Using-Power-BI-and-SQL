@@ -35,3 +35,6 @@ AIMS grid: It is a project management tool which consists of four components to 
 In our case the end result will be the dashboard created and success criteria will be bumping up the sales using cost optimization and save the time of the manager of the company.
 ![Screenshot 2024-05-28 183442](https://github.com/mdilshad7478/Sales-Insights---Data-Analysis-Using-Power-BI-and-SQL/assets/157358118/b892c544-8e04-4799-9b8c-ba1a12c25851)
 
+- #### Flowchart of project execution -
+
+  ![1_khhcniAryBdmmfJt0Zk0Lg](https://user-images.githubusercontent.com/118357991/231545034-7f6cc437-5683-44f1-92df-a671540ccae9.jpg)
