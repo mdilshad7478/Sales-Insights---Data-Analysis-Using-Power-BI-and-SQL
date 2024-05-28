@@ -176,7 +176,18 @@ Hence, by using such tools and technology one can make data driven decisions whi
 So, in this project we will help a company make its own sales related dashboard using PowerBI.
 
 ***PART V — Building a Dashboard or a Report***
+
 ![Screenshot 2024-05-28 221342](https://github.com/rppradhan08/sales-insight/assets/157358118/dbe16dd1-43f2-4f40-8e47-eb485a46298b)
+
+### Tools, Software and Libraries :
+
+1.MySQL
+
+2.Microsoft Power BI
+
+3.Power Query Editor
+
+3.DAX Language 
 
  
 
