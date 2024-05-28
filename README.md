@@ -1,10 +1,10 @@
 # Sales Insights-Data Analysis Using Power BI and SQL
 
-*PART I — Problem Statement*
+***PART I — Problem Statement***
 
 AtliQ hardware is a company in India which supplies computer hardware and peripheral devices across India only. They have many stores across India such as surge stores, Nomad stores etc. The head office of the company is situated in Delhi.
 
-## Scenario —
+#### Scenario —
 
 The sales manager of the company is facing many challenges. He is facing issues in tracking sales in dynamically growing market. He is having issues with the insights of his business.
 
@@ -16,9 +16,9 @@ All what the manager wants is a view of the weakest area the company need to foc
 
 
  
-*PART II — Data Discovery*
+***PART II — Data Discovery***
 
-## Project planning using AIMS grid –
+#### Project planning using AIMS grid –
 
 AIMS grid: It is a project management tool which consists of four components to it.
 
@@ -36,8 +36,8 @@ In our case the end result will be the dashboard created and success criteria wi
 - #### Flowchart of project execution -
 
   ![1_khhcniAryBdmmfJt0Zk0Lg](https://user-images.githubusercontent.com/118357991/231545034-7f6cc437-5683-44f1-92df-a671540ccae9.jpg)
-
-*PART III — Data Analysis using SQL*
+  
+***PART III — Data Analysis using SQL***
 
 Completed the Data discovery and then used mySQL for data analysis.
 
@@ -64,6 +64,7 @@ The import of data is done from an already existing MySQL file. This file has to
  - Analysis of different SQL statement on data base
      
    1.To find of all customers records
+   
     `SELECT * FROM sales.customers;`
       
    2.To find total number of customers 
@@ -77,7 +78,8 @@ The import of data is done from an already existing MySQL file. This file has to
    4.To find distrinct product codes that were sold in chennai
      
       `SELECT distinct product_code FROM sales.transactions where market_code='Mark001';`
-    5.To find transactions for Chennai market (market code for chennai is Mark002
+   
+   5.To find transactions for Chennai market (market code for chennai is Mark002
      
       `SELECT * FROM sales.transactions where market_code='Mark002';`
 
@@ -92,38 +94,40 @@ The import of data is done from an already existing MySQL file. This file has to
    8.To find transactions in 2020 join by date table
      
       `SELECT sales.transactions.*, sales.date.* FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020;`
-     8.To find transactions in 2019 join by date table
+   
+   9.To find transactions in 2019 join by date table
      
       `SELECT sales.transactions.*, sales.date.* FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2019;`  
 
-   9.To find total revenue in year 2020,
+   10.To find total revenue in year 2020,
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r";` 
       
-   10.To find total revenue in year 2019,
+   11.To find total revenue in year 2019,
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2019 and sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r";`
-     11.To find total revenue in year 2020, January Month,
+   
+   12.To find total revenue in year 2020, January Month,
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="January" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");` 
 
-   12.To find total revenue in year 2020, February Month,
+   13.To find total revenue in year 2020, February Month,
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="February" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");` 
 
-   13.To find total revenue in year 2019, January Month,
+   14.To find total revenue in year 2019, January Month,
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="January" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");` 
 
-   14.To find total revenue in year 2019, February Month,
+   15.To find total revenue in year 2019, February Month,
    
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.date.month_name="February" and (sales.transactions.currency="INR\r" or sales.transactions.currency="USD\r");` 
 
-   15.To find total revenue in year 2020 in Chennai
+   16.To find total revenue in year 2020 in Chennai
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code="Mark001";` 
 
-   16.To find total revenue in year 2020 in Mumbai
+   17.To find total revenue in year 2020 in Mumbai
      
       `SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code="Mark002";` 
 
@@ -172,7 +176,7 @@ Hence, by using such tools and technology one can make data driven decisions whi
 So, in this project we will help a company make its own sales related dashboard using PowerBI.
 
 ***PART V — Building a Dashboard or a Report***
-[sales_insights (1).pdf](https://github.com/rppradhan08/sales-insight/files/15473233/sales_insights.1.pdf)
+![Screenshot 2024-05-28 221342](https://github.com/rppradhan08/sales-insight/assets/157358118/dbe16dd1-43f2-4f40-8e47-eb485a46298b)
 
  
 
